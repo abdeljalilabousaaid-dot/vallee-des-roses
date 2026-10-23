@@ -79,7 +79,7 @@
         <div style="height:1vw;border-radius:999px;background:linear-gradient(90deg,#E7B3B8,#9B2335)"></div>
         <div style="display:flex;justify-content:space-between;font-size:1.4em;color:var(--muted);font-weight:700"><span>${K.tonnes(r.min)}</span><span>${K.tonnes(r.max)}</span></div></div>`;
     } else {
-      body = `<div style="flex:1;border-radius:1.4vw;background:#3a2a2c url(assets/aube.jpg) center 75%/cover;display:flex;align-items:center;justify-content:center;min-height:22vw">
+      body = `<div style="flex:1;border-radius:1.4vw;background:#3a2a2c url(aube.jpg) center 75%/cover;display:flex;align-items:center;justify-content:center;min-height:22vw">
         <div style="background:rgba(40,16,23,.7);color:#fff;border-radius:1vw;padding:1.4vw 2.4vw;font-size:2.4em;font-weight:800">✿ Cueillez sur vos téléphones !</div></div>`;
     }
     const fresh = paint(`q:${G.sid}:${G.q}`, `<div class="proj">${head(r)}<h2>${esc(r.q)}</h2>${body}
